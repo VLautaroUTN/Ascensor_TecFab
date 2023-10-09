@@ -1,0 +1,28 @@
+// Variables
+// entradas - salidas
+int sensorPiso1;
+int sensorPiso2;
+int sensorPiso3;
+int botonpiso1;
+int botonpiso2;
+int botonpiso3;
+int motorBajar;
+int motorSubir;
+int freno;
+
+// Estados de Variables
+int estadoSensorP1;
+int estadoSensorP2;
+int estadoSensorP3;
+int estadobtnPiso1;
+int estadoBtnPiso2;
+int estadoBtnPiso3;
+
+void setup(){
+    pinMode(sensorPiso1, INPUT);
+    pinMode(sensorPiso2, INPUT);
+    pinMode(sensorPiso3, INPUT);
+    pinMode(botonpiso1, INPUT);
+    pinMode(botonpiso2, INPUT);
+    pinMode(botonpiso3, INPUT);
+}
